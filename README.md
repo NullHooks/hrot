@@ -1,2 +1,2 @@
-# hrot
-HROT cheat
+# HROT cheat
+**A dumb internal hrot cheat made for learning.**
