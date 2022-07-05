@@ -1,11 +1,8 @@
 # -----------
-/intermediates
-/00*
-/BAK
-/src/intermediates
-/src/output
-/src/00*
-/src/BAK
+intermediates
+output
+/hrot-cheat/src/intermediates
+/hrot-cheat/src/output
 # -----------
 
 ## Ignore Visual Studio temporary files, build results, and
