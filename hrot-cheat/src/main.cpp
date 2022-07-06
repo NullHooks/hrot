@@ -6,12 +6,12 @@ DWORD WINAPI MainThread(LPVOID hModule) {
 
     DWORD module_base = (DWORD)GetModuleHandle(reinterpret_cast<LPCWSTR>("hrot.exe"));
     
-    int* ammo = (int*)memory::ptr_from_offset(module_base, offsets::pistol_ammo);   // Wrong
+    int* ammo = (int*)module_base + offsets::pistol_ammo;
 
     // TODO: WndProc for key
     while (!GetAsyncKeyState(keys::unload_key)) {       // Continue until we press unload key
         if (GetAsyncKeyState(keys::show_ammo) & 1)
-            printf("Test");
+            printf("%d", *ammo);
         std::this_thread::sleep_for(std::chrono::milliseconds(50));
 
     }

@@ -21,6 +21,6 @@ void console::release() {
 
 void console::welcome() {
     // Fuck all that cout shit
-    printf("Welcome to HROT cheats! Check my code at:\n");
-    printf("\thttps://github.com/NullHooks/hrot\n");
+    printf("Welcome to my HROT cheat! Check my code at:\n");
+    printf("\thttps://github.com/NullHooks/hrot\n\n");
 }
