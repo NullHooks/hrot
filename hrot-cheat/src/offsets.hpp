@@ -1,5 +1,5 @@
 #pragma once 
 
 namespace offsets {
-    inline int pistol_ammo = 0x119A268; // Wrong
+    inline int base_ammo = 0x736818; // Wrong
 }
